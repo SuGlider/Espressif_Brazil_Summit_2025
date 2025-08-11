@@ -2,6 +2,12 @@
 
 Este projeto demonstra como integrar o Arduino como um componente em um projeto ESP-IDF, utilizando sensores SHTC3 (umidade/temperatura) e ICM42670 (IMU/pedômetro), além de controle de LEDs.
 
+Este exemplo é baseado em:
+- [Exemplo do Pedômetro ICM42670P](https://github.com/tdk-invn-oss/motion.arduino.ICM42670P/blob/main/examples/APEX_Pedometer/APEX_Pedometer.ino)
+- [Exemplo Básico do Adafruit SHTC3](https://github.com/adafruit/Adafruit_SHTC3/blob/master/examples/SHTC3test/SHTC3test.ino)
+
+Os códigos originais foram adaptados e integrados para funcionar com ESP-IDF usando Arduino como componente.
+
 ## Dependências
 - ESP-IDF (versão recomendada: 5.x)
 - Arduino-ESP32 (como componente ESP-IDF)
@@ -165,5 +171,5 @@ activity: walking
 
 ---
 
-**Autor:** Rodrigo Garcia Github@SuGlider
-**Licença:** MIT
+**Autor:** Rodrigo Garcia Github@SuGlider\
+**Licença:** Apache
