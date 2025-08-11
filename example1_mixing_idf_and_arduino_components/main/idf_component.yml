@@ -1,0 +1,4 @@
+# Here we define the dependencies of this component
+# The code depend on Arduino as Component
+dependencies:
+  espressif/arduino-esp32: ^3.3.0~1

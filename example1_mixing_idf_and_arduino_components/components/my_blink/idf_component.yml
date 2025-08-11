@@ -1,0 +1,7 @@
+version: "0.0.1"
+description: IDF LED example component for Arduino as Component
+dependencies:
+  idf: ">=5.0"
+  led_strip:
+    version: "3.*"
+    public: true
