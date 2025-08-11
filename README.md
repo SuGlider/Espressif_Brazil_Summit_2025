@@ -10,10 +10,11 @@ The workshop was based on using the [RUST board](https://github.com/esp-rs/esp-r
 
 This example demonstrates how to use an ESP-IDF component in an Arduino sketch. It shows how to blink both a regular GPIO LED and an addressable LED using Arduino APIs alongside ESP-IDF components.
 
-[Access The Code Here]()
+[Access The Code Here](https://github.com/SuGlider/Espressif_Brazil_Summit_2025/blob/main/example1_mixing_idf_and_arduino_components/README.md
+)
 
 ## Example 2: Arduino as Component using Arduino Libraries Example
 
 This example demonstrates how to use public Arudino Libraries in an Arduino as IDF Component project. It will use Adafurit and TDK Arduino Libraries to read the RUST-Board sensors.
 
-[Access The Code Here]()
+[Access The Code Here](https://github.com/SuGlider/Espressif_Brazil_Summit_2025/blob/main/example2_arduino_libraries_in_action/README.md)
