@@ -116,6 +116,13 @@ ESP32-C3 DevKit
 - `loop()`: Executa a lógica principal, leitura dos sensores e controle dos LEDs.
 - `irq_handler()`: Manipulador de interrupção do IMU para o pedômetro.
 
+## Configuração USB
+Este projeto suporta dois modos de comunicação serial USB:
+- Hardware CDC / JTAG (ESP32-C2/C3/C5/C6/C61/H2/H21/S3/P4)
+- USB OTG nativo via TinyUSB (ESP32-S2/S3/P4)
+
+A configuração é feita através do CMakeLists.txt do projeto. Para detalhes completos, consulte [docs/CDC.md](docs/CDC.md).
+
 ## Configuração e Compilação
 1. Instale o ESP-IDF (v5.x ou superior):
    ```bash
